@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WarrantyAI - Smart Warranty & Asset Management
 
-## Getting Started
+## 🎯 Startup Vision
+A smart AI assistant to track, manage, and remind users of all warranties, services, and coverage—across electronics, home, vehicles, appliances, and even food freshness—by scanning receipts, emails, or item photos. Future AR/3D inventory to visualize real-world ownership.
 
-First, run the development server:
+## 🚀 Problem We Solve
+- People lose receipts, forget warranties, or miss service windows
+- Manual tracking of product warranties or home/car service is chaotic
+- No single tool covers everything: electronics, fridge food, AC filters, water machines, etc.
+- In homes, many items (roof, fan, toilet, etc.) have hidden warranties
+- Missed claims = lost value. Fake claims = lack of trust
+
+## 💡 Our Solution
+- Upload receipts, invoices, or photos (or auto-detect from email)
+- AI detects product, brand, serial number, warranty/service dates
+- Reminders before expiry or service dates (AC filter, car oil, fridge food)
+- 3D/AR inventory to mirror real-life items room-by-room
+- Item ownership proof system for authenticity, privacy, and showcase
+- Claim guidance, history logs, and smart coverage analysis
+
+## 🎨 Tech Stack
+- **Framework**: Next.js v15+ with React 19
+- **Styling**: Tailwind CSS v4+ with futuristic design
+- **Animations**: GSAP with ScrollTrigger
+- **3D Effects**: Three.js for immersive experiences
+- **Demo Engine**: Phaser 3 for 2D, Three.js for 3D
+
+## 🏃‍♂️ Quick Start
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the futuristic AI interface.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🎯 Target Audience
+- Everyday consumers, families, homeowners, car owners
+- E-commerce buyers, tech-savvy users
+- SMBs managing multiple assets or items with warranty/service coverage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💰 Pricing Strategy
+- **Free tier**: Manual upload, limited reminders, basic tracking
+- **Pro**: Auto-import (Gmail/shop), advanced alerts, AR/3D room inventory
+- **Business API**: Product warranty sync, verification tools
 
-## Learn More
+## 🏆 Competitive Advantage
+- AI + visual inventory + smart reminders = true ownership management
+- AR/3D design helps users track and showcase what they really own
+- Not just tracking, but also guiding service, claims, and product lifecycle
+- Privacy-first ownership proof for Web3/metaverse future
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 MVP Features
+- Manual upload (receipt/photo/email)
+- AI extraction of product/warranty info
+- Dashboard with expiration reminders
+- Claim assistant with document export
+- Simple item collection view
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Taglines
+- "Never miss a warranty again."
+- "Own smart. Live smart."
+- "One place for all your stuff."
+- "Track, protect, and prove what's yours."
